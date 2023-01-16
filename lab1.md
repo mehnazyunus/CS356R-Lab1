@@ -271,8 +271,15 @@ Here you will listen to eight notes from a piano song, determine which notes are
 * In MATLAB, type `edit play_song.m`. Within the edit window, uncomment the `pause` statement that is close to the end of the script. This will allow you to step through the chords one at a time. Be sure to save the file when you are done.
 * Re-run the `play_song` script in MATLAB. You will notice that the script now pauses after each note. In order to progress to the next note, you must push a key on the PC keyboard (e.g., spacebar).
 * You have three choices for picking off the frequency values from the MATLAB plot. One is to use the zoom button within the Figure 1 plot window (which appears as a magnifying glass with a plus symbol inside of it, as circled on the left below). The next is to hit Ctrl-C to stop the script at a given place, and then use `ginput` as discussed earlier. The third is to enable Data Tips under the Tools menu on the plot.
-	* Given the information that you see in the Figure 1 plot window for each chord, determine three appropriate piano keys for each chord played. Assume that each key has equal magnitude as assumed for chord1 in Section F. **Fill in your answers in the check-off sheet at the end of this document.**
-	* Given the piano key keys determined above, edit the compose_song.m file to synthesize your song. **Once you feel confident that your synthesized song sounds OK given your limited modeling constraints, call over a TA to get checked off on this exercise.**
+	* Given the information that you see in the Figure 1 plot window for each chord, determine three appropriate piano keys for each chord played. Assume that each key has equal magnitude as assumed for chord1 in Section F.
+		```
+		// Fill in the chords here:
+		Chord 1: C3 G3 E4
+		Chord 2:
+		...
+		Chord 8:
+		```
+	* Given the piano key keys determined above, edit the compose_song.m file to synthesize your song.
 	
 **Exercise 2**  
 Here we make the task more open-ended and simply ask you to try to improve the signal modeling within the compose_song.m file in order to make the synthesized song sound truer to the actual song. However, you must limit yourself to 3 piano
@@ -281,6 +288,10 @@ notes per chord. Therefore, the parameters you have available to change are as f
 * The relative scaling of notes: we previously constrained you to chords being composed of equal amplitude notes (i.e., `c3 + g3 + e4`), but you may now weight them differently (i.e., `0.7*c3 + g3 + 0.7*e4`).
 * The number of harmonics associated with each note: we have thus far only included the second harmonic – you may also add additional harmonics if you like and scale them by whatever factor you like. However, all harmonics must be consistently scaled relative to their fundamental (i.e.., all second harmonics must be scaled relative to their fundamental by factor `hm`, and all third harmonics would need to be scaled relative to their fundamental by factor `hm3`, etc.).
 * Modify the parameters until you are satisfied with your improved song.
+* Measure the similarity of the original song and your synthesized song using Cosine Similarity and plot the Cross-Correlation of the two signals.
+	```
+	// Report the cosine similarity measure and add the cross-correlation plot here.
+	```
 
 ## Acknowledgment
 This lab is adapted from [6.082 Introduction to EECS 2](http://web.mit.edu/6.02/www/f2006/) at Massachusetts Institute of Technology.
