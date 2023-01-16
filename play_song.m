@@ -8,6 +8,7 @@ load Sample_7.mat
 load Sample_8.mat
 
 song=[Sample_1;Sample_2;Sample_3;Sample_4;Sample_5;Sample_6;Sample_7;Sample_8];
+song = song(:,1);
 
 chord_len(1) = length(Sample_1);
 chord_len(2) = length(Sample_2);
