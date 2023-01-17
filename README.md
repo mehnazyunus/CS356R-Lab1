@@ -114,6 +114,10 @@ the a and b coefficients themselves.
 	* Since the magnitude is always even symmetric, we often just focus on the
 positive frequency range.
 
+```
+// Add screenshots of the plots from the pre-lab exercises here
+```
+
 ## Lab Exercises
 ### Background on Piano Music  
 Pressing a piano's key causes a hammer to strike a set of taut strings; the hammer then falls away from the strings so as not to dampen their vibration. The vibration of the  strings produces the sound that we hear and recognize as the strike of a piano’s key. The quality of the sound we hear is determined by the amplitude and frequency of the string’s vibration, which in turn are related to the length, diameter, tension and density of the string. 
@@ -130,10 +134,6 @@ Each of the 12 keys in a pattern corresponds to a note in the twelve-note Wester
 A note that is one octave above another has a frequency that is twice the frequency of the lower note. To distinguish between the different octaves, we often add a subscript to each note to indicate the octave it belongs to. For example, the leftmost C<sub>1</sub>  note on a  piano has a frequency of 32.7 Hz, whereas the C<sub>2</sub> note is one octave above C<sub>1</sub> and has a frequency of 65.4 Hz.  The figure below lists the frequencies of the keys that will be of interest in this lab.
 
 ![image](https://user-images.githubusercontent.com/27924407/211731860-eee769fc-f173-404f-932a-a847978060a6.png)
-
-```
-// Add screenshots of the plots from the pre-lab exercises here
-```
 
 ### Time-Domain Analysis of Piano Notes
 We begin our analysis of piano notes by looking at their time-domain waveform. To do so, we’ll load a snippet from a song played from a piano and examine its basic structure.
