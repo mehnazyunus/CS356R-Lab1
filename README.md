@@ -288,7 +288,7 @@ notes per chord. Therefore, the parameters you have available to change are as f
 * The relative scaling of notes: we previously constrained you to chords being composed of equal amplitude notes (i.e., `c3 + g3 + e4`), but you may now weight them differently (i.e., `0.7*c3 + g3 + 0.7*e4`).
 * The number of harmonics associated with each note: we have thus far only included the second harmonic – you may also add additional harmonics if you like and scale them by whatever factor you like. However, all harmonics must be consistently scaled relative to their fundamental (i.e.., all second harmonics must be scaled relative to their fundamental by factor `hm`, and all third harmonics would need to be scaled relative to their fundamental by factor `hm3`, etc.).
 * Modify the parameters until you are satisfied with your improved song.
-* Measure the similarity of the original song and your synthesized song using Cosine Similarity and plot the Cross-Correlation of the two signals.
+* Measure the similarity of the original song and your synthesized song using Cosine Similarity and plot the [Cross-Correlation](https://www.mathworks.com/help/matlab/ref/xcorr.html) of the two signals.
 	```
 	// Report the cosine similarity measure and add the cross-correlation plot here.
 	```
