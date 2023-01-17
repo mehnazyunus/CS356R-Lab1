@@ -131,6 +131,10 @@ A note that is one octave above another has a frequency that is twice the freque
 
 ![image](https://user-images.githubusercontent.com/27924407/211731860-eee769fc-f173-404f-932a-a847978060a6.png)
 
+```
+// Add screenshots of the plots from the pre-lab exercises here
+```
+
 ### Time-Domain Analysis of Piano Notes
 We begin our analysis of piano notes by looking at their time-domain waveform. To do so, we’ll load a snippet from a song played from a piano and examine its basic structure.
 
